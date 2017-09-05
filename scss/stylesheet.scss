@@ -1,0 +1,39 @@
+$color_pink: #f7d0ce;
+$color_drk_grey : #36373b;
+$color_lgt_grey : #8a8c93;
+
+.banner{
+	background-color: $color_drk_grey;
+}
+.contact-icons{
+	color:white
+}
+
+.section-title{
+	background-color: $color_pink;
+
+}
+.lgt-grey{
+	color: $color_lgt_grey;
+}
+.work:hover{
+	color: $color_pink;
+}
+.work-role{
+	font-weight:bold;
+}
+.grey{
+	color:$color_drk_grey;
+}
+.bkg-slant {
+	background-color: #c2aaa9;
+	padding-bottom:5em;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+}
+.work-experience{
+	background-color: #c2aaa9;
+	padding-top:5em;
+	-webkit-clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
+  clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
+}
