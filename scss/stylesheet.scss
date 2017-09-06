@@ -16,6 +16,9 @@ $color_lgt_grey : #8a8c93;
 .lgt-grey{
 	color: $color_lgt_grey;
 }
+.work{
+	color:$color_lgt_grey;
+}
 .work:hover{
 	color: $color_pink;
 }
@@ -25,15 +28,13 @@ $color_lgt_grey : #8a8c93;
 .grey{
 	color:$color_drk_grey;
 }
-.bkg-slant {
+.slant-top{
 	background-color: #c2aaa9;
-	padding-bottom:5em;
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
-}
-.work-experience{
-	background-color: #c2aaa9;
-	padding-top:5em;
 	-webkit-clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
   clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
+}
+.slant-bottom{
+		background-color: #c2aaa9;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
