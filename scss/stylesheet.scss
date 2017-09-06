@@ -1,6 +1,7 @@
 $color_pink: #f7d0ce;
-$color_drk_grey : #36373b;
-$color_lgt_grey : #8a8c93;
+$color_drk_grey : #1C2538;
+$color_lgt_grey : white;
+$color_lgt_blue : #B5CFDE;
 
 .banner{
 	background-color: $color_drk_grey;
@@ -16,6 +17,12 @@ $color_lgt_grey : #8a8c93;
 .lgt-grey{
 	color: $color_lgt_grey;
 }
+.drk-blue{
+	color: $color_drk_grey ;
+}
+.drk-blue:hover{
+	color: $color_pink ;
+}
 .work{
 	color:$color_lgt_grey;
 }
@@ -29,12 +36,12 @@ $color_lgt_grey : #8a8c93;
 	color:$color_drk_grey;
 }
 .slant-top{
-	background-color: #c2aaa9;
+	background-color: $color_lgt_blue;
 	-webkit-clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
   clip-path: polygon(0 55%, 100% 0, 100% 120%, 0 100%);
 }
 .slant-bottom{
-		background-color: #c2aaa9;
+		background-color: $color_lgt_blue;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 	clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
 }
